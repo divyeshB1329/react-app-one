@@ -1,0 +1,48 @@
+nav {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(128, 128, 128, 1) 58%, rgba(0, 0, 0, 1) 145%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo {
+    width: 3.3%;
+    height: 72%;
+    background: url(/src/assets/logo.png);
+    background-size: 50px;
+    position: absolute;
+    left: 27px;
+}
+
+ul{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Add this to your CSS file */
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  nav a:hover {
+    color: darkblue;
+  }
+  
